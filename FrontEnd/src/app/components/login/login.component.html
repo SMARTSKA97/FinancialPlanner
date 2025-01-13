@@ -1,20 +1,33 @@
-
-<div class="mb-4 p-8 flex items-center">
-    <p-card [style]="{ width: '50rem', overflow: 'hidden' }">
-        <ng-template #header>
-            <img alt="Card" class="w-full" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg" />
-        </ng-template>
-        <ng-template #title> Login </ng-template>
-        <ng-template #subtitle> with UserName and Password </ng-template>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-            quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
-        </p>
-        <ng-template #footer>
-            <div class="flex flex-wrap gap-2 mt-1">
-                <p-button label="Cancel" severity="secondary" class="w-full" [outlined]="true" styleClass="w-full" />
-                <p-button label="Save" class="w-full" styleClass="w-full" />
-            </div>
-        </ng-template>
+<div class="login-container flex align-items-center justify-content-center h-screen">
+    <p-card [style]="{ width: '25rem', overflow: 'hidden' }" class="w-full">
+      <ng-template #header>
+        <img alt="Card" class="w-full" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg" />
+      </ng-template>
+  
+      <ng-template #title> Login </ng-template>
+      <ng-template #subtitle> with Username and Password </ng-template>
+      <ng-template #content>
+          <p-fluid>
+            <form [formGroup]="loginForm">
+                <div class="field mb-4">
+                  <label for="username" class="block mb-2">Username</label>
+                  <input id="username" pInputText formControlName="username" placeholder="Enter your username" class="w-full" />
+                  <small *ngIf="f['username'].invalid && f['username'].touched" class="p-error">Username is required.</small>
+                </div>
+          
+                <div class="field mb-4">
+                  <label for="password" class="block mb-2">Password</label>
+                  <p-password id="password" formControlName="password" feedback="false" placeholder="Enter your password"></p-password>
+                  <small *ngIf="f['password'].invalid && f['password'].touched" class="p-error">Password is required.</small>
+                </div>
+              </form>
+        </p-fluid>
+      </ng-template>
+      <ng-template #footer>
+        <div class="flex gap-4 mt-1">
+          <p-button label="Cancel" severity="secondary" class="w-full" [outlined]="true" styleClass="w-full" ></p-button>
+          <p-button type="submit" label="Save" class="w-full" styleClass="w-full" [disabled]="loginForm.invalid" (onClick)="onSubmit()"></p-button>
+        </div>
+      </ng-template>
     </p-card>
-</div>
+  </div>
