@@ -8,6 +8,10 @@ import { CommonModule } from '@angular/common';
 import { Ripple } from 'primeng/ripple';
 import { ButtonModule } from 'primeng/button';
 import { RouterLink } from '@angular/router';
+import { DashboardComponent } from '../../dashboard/dashboard.component';
+import { LoginComponent } from '../../login/login.component';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-menubar',
@@ -17,17 +21,13 @@ import { RouterLink } from '@angular/router';
 })
 export class MenubarComponent implements OnInit {
   items: MenuItem[] | undefined;
+  constructor(private router: Router) { }
   ngOnInit() {
     this.items = [
       {
         label: 'Dashboard',
         icon: 'pi pi-home',
-        routerLink: '/dashboard',
-      },
-      {
-        label: 'Logout',
-        icon: 'pi pi-home',
-        routerLink: '/login',
+        command: () => { this.router.navigate(['/dashboard']); }
       },
       {
         label: 'Finance',
@@ -37,14 +37,12 @@ export class MenubarComponent implements OnInit {
           {
             label: 'Income',
             icon: 'pi pi-bolt',
-            shortcut: '⌘+S',
-            routerLink: '/income',
+            command: () => { this.router.navigate(['/income']); }
           },
           {
             label: 'Expense',
             icon: 'pi pi-server',
-            shortcut: '⌘+B',
-            routerLink: '/expense',
+            command: () => { this.router.navigate(['/expense']); }
           },
           {
             separator: true,
@@ -52,18 +50,20 @@ export class MenubarComponent implements OnInit {
           {
             label: 'Investments',
             icon: 'pi pi-pencil',
-            shortcut: '⌘+U',
-            routerLink: '/investment',
+            command: () => { this.router.navigate(['/investment']); }
           },
           {
             label: 'Savings',
             icon: 'pi pi-pencil',
-            shortcut: '⌘+U',
-            routerLink: '/saving',
+            command: () => { this.router.navigate(['/saving']); }
           },
         ],
       },
-      
+      {
+        label: 'Logout',
+        icon: 'pi pi-home',
+        command: () => { this.router.navigate(['/login']); }
+      },
     ];
   }
 }
