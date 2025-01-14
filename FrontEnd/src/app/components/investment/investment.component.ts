@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MenubarComponent } from "../layout/menubar/menubar.component";
 
 @Component({
   selector: 'app-investment',
-  imports: [],
+  imports: [MenubarComponent],
   templateUrl: './investment.component.html',
   styleUrl: './investment.component.scss'
 })
