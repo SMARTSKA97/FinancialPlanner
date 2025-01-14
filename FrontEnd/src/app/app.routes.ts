@@ -11,9 +11,9 @@ export const routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
     { path: 'dashboard', component: DashboardComponent },
-    {path:'income',component:IncomeComponent},
-    {path:'expense',component:ExpenseComponent},
-    {path:'investment',component:InvestmentComponent},
-    {path:'saving',component:SavingComponent},
+    { path: 'income', component: IncomeComponent },
+    { path: 'expense', component: ExpenseComponent },
+    { path: 'investment', component: InvestmentComponent },
+    { path: 'saving', component: SavingComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
 ];
