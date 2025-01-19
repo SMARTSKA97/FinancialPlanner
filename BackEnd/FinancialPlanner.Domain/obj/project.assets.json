@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SKA97-MINIDESKY\\Documents\\WorkSpace\\FinancialPlanner\\Backend\\FinancialPlanner.Web.csproj",
-      "projectName": "FinancialPlanner.Web",
-      "projectPath": "C:\\Users\\SKA97-MINIDESKY\\Documents\\WorkSpace\\FinancialPlanner\\Backend\\FinancialPlanner.Web.csproj",
+      "projectUniqueName": "C:\\Users\\SKA97-MINIDESKY\\Documents\\WorkSpace\\FinancialPlanner\\BackEnd\\FinancialPlanner.Domain\\FinancialPlanner.Domain.csproj",
+      "projectName": "FinancialPlanner.Domain",
+      "projectPath": "C:\\Users\\SKA97-MINIDESKY\\Documents\\WorkSpace\\FinancialPlanner\\BackEnd\\FinancialPlanner.Domain\\FinancialPlanner.Domain.csproj",
       "packagesPath": "C:\\Users\\SKA97-MINIDESKY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SKA97-MINIDESKY\\Documents\\WorkSpace\\FinancialPlanner\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\SKA97-MINIDESKY\\Documents\\WorkSpace\\FinancialPlanner\\BackEnd\\FinancialPlanner.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,9 +69,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
