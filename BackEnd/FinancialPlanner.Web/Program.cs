@@ -1,7 +1,15 @@
+using FinancialPlanner.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("FinancialPlannerConnection")
+    //options => options.CommandTimeout(999)
+    //options => options.EnableRetryOnFailure(10, TimeSpan.FromSeconds(5), null)
+));
 
 var app = builder.Build();
 
