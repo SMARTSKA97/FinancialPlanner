@@ -1,0 +1,16 @@
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\bin\Debug\net9.0\FinancialPlanner.DAL.deps.json
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\bin\Debug\net9.0\FinancialPlanner.DAL.dll
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\bin\Debug\net9.0\FinancialPlanner.DAL.pdb
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\bin\Debug\net9.0\FinancialPlanner.Domain.dll
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\bin\Debug\net9.0\FinancialPlanner.Domain.pdb
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.csproj.AssemblyReference.cache
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.AssemblyInfoInputs.cache
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.AssemblyInfo.cs
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.csproj.CoreCompileInputs.cache
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.sourcelink.json
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\Financia.FD2633A2.Up2Date
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.dll
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\refint\FinancialPlanner.DAL.dll
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\FinancialPlanner.DAL.pdb
+C:\Users\SKA97-MINIDESKY\Documents\WorkSpace\FinancialPlanner\BackEnd\FinancialPlanner.DAL\obj\Debug\net9.0\ref\FinancialPlanner.DAL.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "WtQFkMz5wo9mm9RaMBpM5UphzELmSNo2pyyX27FYTNQ=",
+  "Source": "FinancialPlanner.API",
+  "BasePath": "_content/FinancialPlanner.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

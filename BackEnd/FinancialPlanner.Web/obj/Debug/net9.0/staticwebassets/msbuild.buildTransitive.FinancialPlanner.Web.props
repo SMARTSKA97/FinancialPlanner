@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\FinancialPlanner.Web.props" />
-</Project>
